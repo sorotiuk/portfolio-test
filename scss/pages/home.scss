@@ -4,6 +4,8 @@
 // home page style
 
 .hero{
+  border-bottom: 1rem solid $prime;
+  border-top: 1rem solid $prime;
     background:
             linear-gradient(
                             90deg,
@@ -87,14 +89,42 @@
                             $color-2      35%,
                             $transparent  35%
             );
-    background-size:  8rem 8rem;
+    background-size:  10rem 15rem;
 
   header {
     padding-top: 2rem;
 
-
     @media (max-width: $screen-md){
       padding-top: 1rem;
+    }
+  }
+
+  .hero-title{
+    font-size: 5rem;
+    //font-weight: 700;
+    color: $primeShade;
+    //margin-bottom: 8rem;
+    line-height: 1.4;
+
+    @media (max-width: $screen-md){
+      font-size: 3.4rem;
+    }
+
+    @media (max-width: $screen-sm){
+      font-size: 2.4rem;
+    }
+  }
+
+  .hero-subtitle {
+    font-size: 2.5rem;
+    font-weight: 300;
+
+    @media (max-width: $screen-md){
+      font-size: 2rem;
+    }
+
+    @media (max-width: $screen-sm){
+      font-size: 1.5rem;
     }
   }
 
@@ -111,7 +141,7 @@
 
   .hamburger{
     visibility: hidden;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: $darkGray;
 
     @media (max-width: $screen-sm-min) {
@@ -123,16 +153,16 @@
     margin-top: 1.1rem;
     padding-left: 1rem;
     font-size: 1.5rem;
-    color: $darkGray;
+    color: $gray;
     cursor: pointer;
     line-height: 1;
     display: inline-block;
     text-decoration: none;
+    font-weight: 700;
 
     &:hover{
       text-decoration: none;
       color: $white;
-      font-weight: 700;
     }
 
     &:after {
@@ -162,4 +192,6 @@
     }
   }
 }
+
+
 

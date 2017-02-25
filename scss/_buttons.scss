@@ -1,10 +1,10 @@
 %btn {
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
-  color: white;
+  color: $prime;
   background: transparent;
   padding: 1.5rem 3rem;
-  border: 2px solid white;
+  border: 2px solid $prime;
   width: auto;
   border-radius: 4rem;
   margin: 0 auto;
@@ -15,17 +15,21 @@
   text-align: center;
 
   @media (max-width: $screen-xs){
-    width: 100%;
+    width: 90%;
   }
+
 }
 
 .btn-prime {
   @extend %btn;
   background: $prime;
   border: 2px solid $prime;
+  color: $white;
 
   &:hover {
-    //
+    background: $white;
+    border-color: $white;
+    color: $black;
   }
 }
 
@@ -35,23 +39,27 @@
   border: 2px solid $second;
 
   &:hover {
-    //
+    background: $secondShade;
   }
 }
 
 .btn-outline {
   @extend %btn;
+  border-color: $darkGray;
+  color: $darkGray;
 
   &:hover {
     background: $white;
-    color: $black;
+    border-color: $white;
+    color: #000;
   }
 }
 
 .btn-small {
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
 }
 
 .btn-large {
-  padding: 2rem 50rem;
+  padding: 2rem 5rem;
 }
