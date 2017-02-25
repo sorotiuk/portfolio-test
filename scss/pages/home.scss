@@ -2,3 +2,96 @@
 @import "../global";
 
 // home page style
+
+.hero{
+
+
+
+    background:
+            linear-gradient(
+                            90deg,
+                            $transparent  93%,
+                            $color-3      93%,
+                            $color-3      100%
+            ),
+            linear-gradient(
+                            90deg,
+                            $color-2      5%,
+                            $transparent  5%,
+                            $transparent
+            ),
+            linear-gradient(
+                            $color-2      5%,
+                            $transparent  5%,
+                            $transparent
+            ),
+            linear-gradient(
+                            $transparent  90%,
+                            $color-4      90%,
+                            $color-4      100%
+            ),
+            linear-gradient(
+                            $transparent  35%,
+                            $color-1      35%,
+                            $color-1      45%,
+                            $transparent  45%,
+                            $transparent  55%,
+                            $color-2      55%,
+                            $color-2      70%,
+                            $transparent  70%
+            ),
+            linear-gradient(
+                            90deg,
+                            $transparent  35%,
+                            $color-1      35%,
+                            $color-1      45%,
+                            $transparent  45%,
+                            $transparent  55%,
+                            $color-2      55%,
+                            $color-2      70%,
+                            $transparent  70%
+            ),
+            linear-gradient(
+                            $transparent  55%,
+                            $color-1      55%,
+                            $color-1      60%,
+                            $transparent  60%
+            ),
+            linear-gradient(
+                            90deg,
+                            $transparent  55%,
+                            $color-1      55%,
+                            $color-1      60%,
+                            $transparent  60%
+            ),
+            linear-gradient(
+                            $transparent  20%,
+                            $color-3      20%,
+                            $color-3      80%,
+                            $transparent  80%
+            ),
+            linear-gradient(
+                            90deg,
+                            $transparent  20%,
+                            $color-4      20%,
+                            $color-4      80%,
+                            $transparent  80%
+            ),
+            linear-gradient(
+                            $transparent  10%,
+                            $color-2      10%,
+                            $color-2      35%,
+                            $transparent  35%
+            ),
+            linear-gradient(
+                            90deg,
+                            $transparent  10%,
+                            $color-2      10%,
+                            $color-2      35%,
+                            $transparent  35%
+            );
+    background-size:  8rem 8rem;
+
+
+}
+
