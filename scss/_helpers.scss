@@ -1,0 +1,181 @@
+// ---------------------------
+// Helper classes
+// ---------------------------
+
+// Position
+// ---------------------------
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+// Float
+// ---------------------------
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.cf {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+// Display Values
+// -------------------------
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+// Aligning Elements
+// -------------------------
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mobile-text-center {
+  @media (max-width: 992px) {
+    text-align: center;
+  }
+}
+
+// Colors
+// -------------------------
+
+.white {
+  &.white {
+    color: $white;
+  }
+}
+
+.black {
+  &.black {
+    color: $black;
+  }
+}
+
+.prime {
+  &.prime {
+    color: $prime;
+  }
+}
+
+.second {
+  &.second {
+    color: $second;
+  }
+}
+
+// Background Colors
+// -------------------------
+
+.bg-white {
+  &.bg-white {
+    background-color: $white;
+  }
+}
+
+.bg-black {
+  &.bg-black {
+    background-color: $black;
+  }
+}
+
+.bg-prime {
+  &.bg-prime {
+    background-color: $prime;
+  }
+}
+
+.bg-second {
+  &.bg-second {
+    background-color: $second;
+  }
+}
+
+.bg-third {
+  &.bg-third {
+    background-color: $third;
+  }
+}
+
+.bg-gray {
+  &.bg-gray {
+    background-color: $whiteGray;
+  }
+}
+
+// Cursor
+// -------------------------
+
+.pointer {
+  cursor: pointer;
+}
+
+// Margins
+// -------------------------
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 10rem;
+}
+

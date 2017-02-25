@@ -1,0 +1,60 @@
+// ---------------------------
+// Global variables
+// ---------------------------
+
+// Colors
+// ---------------------------
+
+// Gray
+$black: 		#000;
+$blackGray:     #241e18;
+$darkGray: 		#65615d;
+$gray: 			#75726e;
+$grayShade:		#c2c0ba;
+$grayTint:		#f6f4f0;
+$grayPastel:	#f8f7f4;
+$whiteGray: 	#f2f0e9;
+$white: 		#fff;
+
+// Blue
+$blue:          #0000ff;
+$blueShade:     #00008b;
+$blueTint:      #00bfff;
+$bluePastel:    #e0ffff;
+
+// Red
+$orange: 		#ffa500;
+$orangeShade:   #ff8c00;
+$orangeTint: 	#ffd700;
+$orangePastel:  #fffacd;
+
+// Green
+$green: 		#008000;
+$greenDark: 	#006400;
+$greenTint: 	#90ee90;
+$greenPastel:	#f0fff0;
+
+// Brand colors
+$prime:         $green;
+$primeShade:    $greenDark;
+$primeTint:     $greenTint;
+$primePaster:   $greenPastel;
+$second:        $orange;
+$secondShade:   $orangeShade;
+$third:         $blackGray;
+
+// Hover effects
+$hoverEffect:                 10%;
+
+// Size
+$mainContainer:               100rem;
+
+// Indents updated
+// --------------------------------------------------
+$containerHorIndent:          10rem;
+$containerVerIndent:          5rem;
+
+// Indents updated
+// --------------------------------------------------
+$containerHorIndentMobile:    3%;
+$containerVerIndentMobile:    3rem;

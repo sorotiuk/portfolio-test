@@ -1,0 +1,57 @@
+%btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+  padding: 1.5rem 3rem;
+  border: 2px solid white;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+  @media (max-width: $screen-xs){
+    width: 100%;
+  }
+}
+
+.btn-prime {
+  @extend %btn;
+  background: $prime;
+  border: 2px solid $prime;
+
+  &:hover {
+    //
+  }
+}
+
+.btn-second {
+  @extend %btn;
+  background: $second;
+  border: 2px solid $second;
+
+  &:hover {
+    //
+  }
+}
+
+.btn-outline {
+  @extend %btn;
+
+  &:hover {
+    background: $white;
+    color: $black;
+  }
+}
+
+.btn-small {
+  padding: 1rem 1rem;
+}
+
+.btn-large {
+  padding: 2rem 50rem;
+}

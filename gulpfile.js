@@ -12,15 +12,15 @@ var gulp = require('gulp'),
     browser = require("browser-sync").create();
 
 var path = {
-    js : './js/**/*.js',
-    jsdir : './js',
-    script : './scripts/**/*.js',
-    scss : [
-        './scss/**/*.scss',
-        '!scss/**/*_scsslint_tmp*.scss'
-    ],
-    cssdir : './css',
-    html: './**/*.html'
+    js :        './js/**/*.js',
+    jsdir :     './js',
+    script :    './scripts/**/*.js',
+    scss :      [
+                './scss/**/*.scss',
+                '!scss/**/*_scsslint_tmp*.scss'
+                ],
+    cssdir :    './css',
+    html:       './**/*.html'
 };
 
 gulp.task('clean', function () {
