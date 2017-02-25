@@ -55,6 +55,17 @@
   }
 }
 
+.btn-outline-prime {
+  @extend %btn;
+  border-color: $prime;
+  color: $prime;
+
+  &:hover {
+    background-color: $prime;
+    color: $black;
+  }
+}
+
 .btn-small {
   padding: 1rem 2rem;
   font-size: 1.3rem;

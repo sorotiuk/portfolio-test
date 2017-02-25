@@ -193,5 +193,46 @@
   }
 }
 
+.service-section{
 
+  .service-picture{
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+  }
+
+  .service-description{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: $gray;
+  }
+}
+
+.section-title{
+  font-size: 4rem;
+
+  @media (max-width: $screen-md){
+    font-size: 3rem;
+  }
+
+  @media (max-width: $screen-sm){
+    font-size: 2rem;
+  }
+}
+
+.section-subtitle{
+  font-size: 1.5rem;
+  margin-top: 3rem;
+
+  @media (max-width: $screen-md){
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: $screen-sm){
+    font-size: 1.3rem;
+  }
+}
 
