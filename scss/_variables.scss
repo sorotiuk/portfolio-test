@@ -34,6 +34,14 @@ $greenDark: 	#006400;
 $greenTint: 	#90ee90;
 $greenPastel:	#f0fff0;
 
+// Pattern colors
+$color-1: transparentize(#FFEFC3, .6);
+$color-2: transparentize(#E8DE67, .6);
+$color-3: transparentize(#C0CCAB, .5);
+$color-4: transparentize(#E57152, .8);
+
+$transparent: rgba(255, 255, 255, 0);
+
 // Brand colors
 $prime:         $green;
 $primeShade:    $greenDark;
@@ -47,11 +55,11 @@ $third:         $blackGray;
 $hoverEffect:                 10%;
 
 // Size
-$mainContainer:               100rem;
+$mainContainer:               150rem;
 
 // Indents updated
 // --------------------------------------------------
-$containerHorIndent:          10rem;
+$containerHorIndent:          5rem;
 $containerVerIndent:          5rem;
 
 // Indents updated

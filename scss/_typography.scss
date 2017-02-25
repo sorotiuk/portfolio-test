@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  color: $greenTint;
+  color: $prime;
   margin: 0;
 }
 
@@ -18,7 +18,8 @@ body {
 // Headings
 // ---------------------------
 .h1, .h2, .h3, .h4, .h6 {
-  font-family: "Merriweather";
+  font-family: "Open Sans";
+  margin: 0 auto;
 }
 
 .h1 {
@@ -41,6 +42,7 @@ body {
   font-family: "Open Sans";
   font-size: 1.5rem;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .h6 {
@@ -52,9 +54,19 @@ p {
 }
 
 a {
-  cursor: pointer;
+  font-size: 1.5rem;
+
+ /* подчеркивание другого цвета
+
+  & span {
+    color: #FF8C00;
+  }
 
   &:hover {
-    color: $third;
+    color: red;
   }
+
+  &:hover span {
+    color: blue;
+  } */
 }
