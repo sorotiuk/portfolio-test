@@ -6,6 +6,10 @@ div, p, section, footer, header, aside {
   box-sizing: border-box;
 }
 
+section {
+  height: 50rem;
+}
+
 .section {
   padding-top: $containerVerIndent;
   padding-bottom: $containerVerIndent;
