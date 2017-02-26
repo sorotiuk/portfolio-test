@@ -35,10 +35,24 @@ body {
   font-weight: 700;
   color: $black;
   margin-top: 5rem;
+
+  @media (max-width: $screen-md){
+    font-size: 2.5rem;
+  }
+  @media (max-width: $screen-sm){
+    font-size: 2rem;
+  }
 }
 
 .h4 {
   font-size: 2rem;
+
+  @media (max-width: $screen-md){
+    font-size: 1.8rem;
+  }
+  @media (max-width: $screen-sm){
+    font-size: 1.5rem;
+  }
 }
 
 .h5 {
@@ -52,12 +66,31 @@ body {
   font-size: 1rem;
 }
 
+.font-ital{
+  margin-top: 1rem;
+  font-style: italic;
+  color: $gray;
+  margin-bottom: 3rem;
+}
+
+.font-bold{
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color: $black;
+}
+
 p {
   font-size: 1.5rem;
 }
 
-a {
+a{
   font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    color: $second;
+  }
 
  /* подчеркивание другого цвета
 

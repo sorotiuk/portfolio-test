@@ -26,7 +26,7 @@ $bluePastel:    #e0ffff;
 $orange: 		#ffa500;
 $orangeShade:   #ff8c00;
 $orangeTint: 	#ffd700;
-$orangePastel:  #fffacd;
+$orangePastel: rgba(255, 240, 194, 0.4);
 
 // Green
 $green: 		#008000;
@@ -49,7 +49,7 @@ $primeTint:     $greenTint;
 $primePaster:   $greenPastel;
 $second:        $orange;
 $secondShade:   $orangeShade;
-$third:         $blackGray;
+$third:         $orangePastel;
 
 // Hover effects
 $hoverEffect:                 10%;
